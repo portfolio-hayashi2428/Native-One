@@ -311,7 +311,7 @@ h4 {
 
 .safety-text-wrap {
   display: flex;
-  padding: 3% 4%;
+  padding: 3% 5%;
 }
 
 .safety-text-wrap p {
@@ -1047,8 +1047,8 @@ h4 {
     }
 
     .onayami-text-wrap ul {
-      font-size: 16px;
-      padding: 2% 10%;
+      font-size: 18px;
+      padding: 2% 5%;
     }
 
     .onayami-text-wrap li {
@@ -1061,81 +1061,16 @@ h4 {
     }
 
     .onayami-img {
-      margin-top: 15%;
-      width: 50%;
+      width: 65%;
       display: block;
       margin: 0 auto;
+      margin-top: 2%;
     }
 
     .onayami p {
       font-size: 17px;
-      margin-top: 3%;
+      margin-top: 5%;
       margin-bottom: 10%;
-    }
-
-    .voice-maru {
-      width: 55px;
-      height: 55px;
-      line-height: 1.1;
-      padding-top: 10px;
-      border-radius: 50%;
-      background-color: #0d9158;
-    }
-
-    .voice-maru p {
-      color: #fff;
-      text-align: center;
-      font-size: 15px;
-    }
-
-    .voice-maru p:nth-child(2) {
-      font-size: 18px;
-    }
-
-    .voice-title-wrap {
-      display: flex;
-    }
-
-    .voice-title {
-      line-height: 2;
-      font-size: 23px;
-      margin-left: 20px;
-    }
-
-    .voice-text-wrap {
-      display: flex;
-    }
-
-    .voice-text-wrap p {
-      line-height: 1.8;
-      margin-top: 2%;
-      color: #676767;
-    }
-
-    .voice-img {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      margin-top: -45px;
-      margin-left: 25px;
-      aspect-ratio: 1 / 1;
-    }
-
-    .voice-wrap {
-      width: 80%;
-      background-color: #fff;
-      margin: 0 auto;
-      border-radius: 15px;
-      padding: 25px 35px;
-      margin-bottom: 2%;
-      box-shadow: 1.5px 2px 8px #d1e6b6;
-    }
-
-    .voice-img-text {
-      font-size: 12px;
-      padding-left: 35%;
-      padding-top: 1%;
-      color: #676767;
     }
 
     /*-------------------------------------------
@@ -1225,8 +1160,8 @@ h4 {
     }
 
     .voice-title {
-      line-height: 1.3;
-      font-size: 18px;
+      line-height: 1.2;
+      font-size: 20px;
       margin-left: 10px;
     }
 
@@ -1240,6 +1175,8 @@ h4 {
       display: block;
       margin: 0 auto;
       margin-top: 8%;
+      width: 170px;
+      height: 170px;
     }
 
     .voice-wrap {
