@@ -41,7 +41,7 @@ h1 {
   font-weight: 400;
   color: #00805d;
   line-height: 1.7;
-  letter-spacing: 0.07em;
+  letter-spacing: 0.05em;
   font-size: 19.5px;
 }
 
@@ -143,7 +143,7 @@ h1 {
   position: absolute;
   width: 5px;
   height: 10px;
-  top: 0.6em;
+  top: 0.5em;
   left: 8px;
   -webkit-transform: rotate(50deg);
   -ms-transform: rotate(50deg);
@@ -155,7 +155,7 @@ h1 {
 .onayami-text-wrap li:after {
   content: "";
   position: absolute;
-  top: 0.45em;
+  top: 0.33em;
   left: 0;
   width: 20px;
   height: 20px;
@@ -315,8 +315,8 @@ h4 {
 }
 
 .safety-text-wrap p {
-  font-size: 19px;
-  line-height: 1.5;
+  font-size: 18px;
+  line-height: 1.6;
   color: #676767;
   margin-left: 5%;
 }
@@ -442,6 +442,7 @@ h4 {
 
 .voice-text-wrap {
   display: flex;
+  font-size: 17px;
 }
 
 .voice-text-wrap p {
@@ -499,7 +500,7 @@ h4 {
   max-width: 900px;
   width: 85%;
   margin-top: 100px;
-  margin-bottom: 70px;
+  margin-bottom: 80px;
 }
 
 .step-maru {
@@ -711,6 +712,7 @@ h4 {
 .title p {
   width: 70%;
   line-height: 1.5;
+  font-size: 18px;
 }
 
 /*アイコンの＋と×*/
@@ -832,7 +834,7 @@ h4 {
   }
 
   .onayami p {
-    font-size: 22px;
+    font-size: 24px;
     margin-top: 2%;
     margin-bottom: 10%;
   }
@@ -848,385 +850,386 @@ h4 {
     margin-bottom: 5%;
     width: 50%;
   }
-
-  /*-------------------------------------------
+}
+/*-------------------------------------------
 700px_NativeOneの説明
 -------------------------------------------*/
-  @media (max-width: 700px) {
-    .nativeone-setumei {
-      flex-direction: column;
-    }
+@media (max-width: 700px) {
+  .nativeone-setumei {
+    flex-direction: column;
+  }
 
-    .nativeone-package {
-      width: 40%;
-      height: auto;
-      margin: 0 auto;
-      margin-top: 3%;
-    }
+  .nativeone-package {
+    width: 45%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 3%;
+  }
 
-    .nativeone-setumei {
-      width: 100%;
-      margin: 0 auto;
-    }
+  .nativeone-setumei {
+    width: 100%;
+    margin: 0 auto;
+  }
 
-    .nativeone-setumei-text {
-      width: 90%;
-      margin: 0 auto;
-      margin-bottom: 5%;
-    }
+  .nativeone-setumei-text {
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+  }
 
-    .nativeone-logo {
-      width: 70%;
-      margin-top: -2%;
-    }
-
-    /*-------------------------------------------
-700px_4つのポイント
--------------------------------------------*/
-
-    .point h2 {
-      margin-bottom: 13%;
-      padding: 3% 10%;
-    }
-
-    .point-wrap {
-      display: flex;
-      flex-direction: column;
-      margin: 0 auto;
-    }
-
-    .point-waku-wrap {
-      margin-bottom: 12%;
-    }
-
-    /*-------------------------------------------
-700px_安全性
--------------------------------------------*/
-
-    h4 {
-      padding: 3%;
-    }
-
-    .safety-text-wrap {
-      flex-direction: column;
-    }
-
-    .safety-text-wrap p {
-      margin-top: 2%;
-      margin-bottom: 2%;
-      margin-left: 0%;
-    }
-
-    .safety-img {
-      display: block;
-      margin: 0 auto;
-    }
-
-    /*-------------------------------------------
-700px_実感の声
--------------------------------------------*/
-
-    .voice-wrap {
-      margin-bottom: 5%;
-    }
-
-    .voice-text-wrap {
-      flex-direction: column;
-    }
-
-    .voice-text-wrap p {
-      padding-right: 0%;
-    }
-
-    .voice-title {
-      padding-right: 0%;
-    }
-
-    .voice-img {
-      width: 200px;
-      height: 200px;
-      display: block;
-      margin: 0 auto;
-      margin-top: 3%;
-    }
-
-    .voice-heading h2 br:nth-child(1) {
-      display: block;
-    }
-    /*-------------------------------------------
-700px_お届け手順
--------------------------------------------*/
-
-    .step h2 {
-      margin-bottom: 13%;
-      padding: 3% 10%;
-    }
-
-    .step-wrap {
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 0%;
-      margin-top: 0%;
-    }
-
-    .step-waku-warp {
-      margin-bottom: 12%;
-    }
-
-    .banner_pc-img {
-      display: none;
-    }
-
-    .banner_sp-img {
-      display: block;
-      width: 85%;
-      margin: 0 auto;
-      margin-bottom: 8%;
-    }
-
-    /*-------------------------------------------
-700px_よくある質問
--------------------------------------------*/
-
-    .question h2 {
-      margin-bottom: 5%;
-      padding: 3% 10%;
-    }
-
-    .question-wrap {
-      width: 85%;
-      font-size: 16px;
-    }
-
-    .application-link {
-      width: 85%;
-      margin-top: 8%;
-      margin-bottom: 8%;
-      font-size: 20px;
-      padding: 4% 3%;
-    }
+  .nativeone-logo {
+    width: 85%;
+    margin-top: -4%;
   }
 
   /*-------------------------------------------
+700px_4つのポイント
+-------------------------------------------*/
+
+  .point h2 {
+    margin-bottom: 13%;
+    padding: 3% 10%;
+  }
+
+  .point-wrap {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .point-waku-wrap {
+    margin-bottom: 12%;
+  }
+
+  /*-------------------------------------------
+700px_安全性
+-------------------------------------------*/
+
+  h4 {
+    padding: 3%;
+  }
+
+  .safety-text-wrap {
+    flex-direction: column;
+  }
+
+  .safety-text-wrap p {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 0%;
+  }
+
+  .safety-img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /*-------------------------------------------
+700px_実感の声
+-------------------------------------------*/
+
+  .voice-wrap {
+    margin-bottom: 5%;
+  }
+
+  .voice-text-wrap {
+    flex-direction: column;
+  }
+
+  .voice-text-wrap p {
+    padding-right: 0%;
+  }
+
+  .voice-title {
+    padding-right: 0%;
+  }
+
+  .voice-img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3%;
+  }
+
+  .voice-heading h2 br:nth-child(1) {
+    display: block;
+  }
+  /*-------------------------------------------
+700px_お届け手順
+-------------------------------------------*/
+
+  .step h2 {
+    margin-bottom: 13%;
+    padding: 3% 10%;
+  }
+
+  .step-wrap {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0%;
+    margin-top: 0%;
+  }
+
+  .step-waku-warp {
+    margin-bottom: 12%;
+  }
+
+  .banner_pc-img {
+    display: none;
+  }
+
+  .banner_sp-img {
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 8%;
+  }
+
+  /*-------------------------------------------
+700px_よくある質問
+-------------------------------------------*/
+
+  .question h2 {
+    margin-bottom: 5%;
+    padding: 3% 10%;
+  }
+
+  .question-wrap {
+    width: 85%;
+    font-size: 16px;
+  }
+
+  .application-link {
+    width: 85%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    font-size: 20px;
+    padding: 4% 3%;
+  }
+}
+
+/*-------------------------------------------
 450px_ヘッダー
 -------------------------------------------*/
 
-  @media (max-width: 450px) {
-    h1 {
-      color: #00805d;
-      font-size: 30px;
-      line-height: 1.3;
-      margin-bottom: 4%;
-    }
+@media (max-width: 450px) {
+  h1 {
+    color: #00805d;
+    font-size: 30px;
+    line-height: 1.3;
+    margin-bottom: 4%;
+  }
 
-    .header-text p {
-      font-size: 16px;
-      line-height: 1.5;
-      margin-bottom: 7%;
-    }
+  .header-text p {
+    font-size: 19px;
+    line-height: 1.4;
+    text-align: left;
+    margin-bottom: 7%;
+  }
 
-    .header-text {
-      width: 340px;
-    }
+  .header-text {
+    width: 340px;
+  }
 
-    /*-------------------------------------------
+  /*-------------------------------------------
 450px_お悩み
 -------------------------------------------*/
 
-    .onayami-wrap {
-      flex-direction: column;
-    }
+  .onayami-wrap {
+    flex-direction: column;
+  }
 
-    .onayami-text-wrap h2 {
-      font-size: 28px;
-      line-height: 1.3;
-    }
+  .onayami-text-wrap h2 {
+    font-size: 28px;
+    line-height: 1.3;
+  }
 
-    .onayami span {
-      font-size: 30px;
-    }
+  .onayami span {
+    font-size: 30px;
+  }
 
-    .onayami-text-wrap ul {
-      font-size: 18px;
-      padding: 2% 5%;
-    }
+  .onayami-text-wrap ul {
+    font-size: 19px;
+    padding: 2% 3%;
+  }
 
-    .onayami-text-wrap li {
-      position: relative;
-      line-height: 28px;
-    }
+  .onayami-text-wrap li {
+    position: relative;
+    line-height: 28px;
+  }
 
-    .onayami-text-wrap li:nth-child(5) {
-      margin-bottom: 3%;
-    }
+  .onayami-text-wrap li:nth-child(5) {
+    margin-bottom: 3%;
+  }
 
-    .onayami-img {
-      width: 65%;
-      display: block;
-      margin: 0 auto;
-      margin-top: 2%;
-    }
+  .onayami-img {
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2%;
+  }
 
-    .onayami p {
-      font-size: 17px;
-      margin-top: 5%;
-      margin-bottom: 10%;
-    }
+  .onayami p {
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 15%;
+  }
 
-    /*-------------------------------------------
-450px_NativeOneの説明
--------------------------------------------*/
-
-    .nativeone-setumei-text {
-      font-size: 16px;
-    }
-
-    /*-------------------------------------------
+  /*-------------------------------------------
 450px_4つのポイント
 -------------------------------------------*/
-    .point h2 {
-      font-size: 30px;
-      padding: 4% 10%;
-    }
+  .point h2 {
+    font-size: 30px;
+    padding: 4% 10%;
+  }
 
-    .point h3 {
-      font-size: 27px;
-    }
+  .point h3 {
+    font-size: 27px;
+  }
 
-    .point-waku p {
-      font-size: 16px;
-      padding: 0 20px;
-    }
+  .point-waku p {
+    font-size: 19px;
+    padding: 0 20px;
+  }
 
-    .point-waku {
-      padding: 60px 0px 10px 0px;
-      margin-bottom: 3%;
-    }
-    /*-------------------------------------------
+  .point-waku {
+    padding: 60px 0px 10px 0px;
+    margin-bottom: 3%;
+  }
+  /*-------------------------------------------
 450px_安全性
 -------------------------------------------*/
-    h4 {
-      font-size: 25px;
-      padding: 4%;
-    }
+  h4 {
+    font-size: 25px;
+    padding: 4%;
+  }
 
-    .safety-wrap {
-      margin-bottom: 13%;
-    }
+  .safety-wrap {
+    margin-bottom: 13%;
+  }
 
-    .safety-text-wrap p {
-      font-size: 16px;
-    }
-    /*-------------------------------------------
+  .safety-text-wrap p {
+    font-size: 17px;
+  }
+
+  .safety-text-wrap {
+    padding: 5% 6%;
+  }
+
+  /*-------------------------------------------
 450px_実感の声
 -------------------------------------------*/
 
-    .voice-heading {
-      margin-top: 3%;
-    }
+  .voice-heading {
+    margin-top: 3%;
+  }
 
-    .hukidasi {
-      padding: 7px;
-      width: 200px;
-      font-size: 16px;
-      margin-bottom: 3%;
-    }
+  .hukidasi {
+    padding: 7px;
+    width: 200px;
+    font-size: 16px;
+    margin-bottom: 3%;
+  }
 
-    .voice-heading h2 {
-      font-size: 30px;
-      margin-bottom: 5%;
-    }
+  .voice-heading h2 {
+    font-size: 30px;
+    margin-bottom: 5%;
+  }
 
-    .voice-heading h2 span {
-      font-size: 32px;
-    }
+  .voice-heading h2 span {
+    font-size: 32px;
+  }
 
-    .voice-heading h2 span:after {
-      width: 160px;
-      height: 6px;
-    }
+  .voice-heading h2 span:after {
+    width: 160px;
+    height: 6px;
+  }
 
-    .voice-maru {
-      width: 45px;
-      height: 45px;
-    }
+  .voice-maru {
+    width: 45px;
+    height: 45px;
+  }
 
-    .voice-maru p {
-      font-size: 11px;
-    }
+  .voice-maru p {
+    font-size: 11px;
+  }
 
-    .voice-maru p:nth-child(2) {
-      font-size: 16px;
-    }
+  .voice-maru p:nth-child(2) {
+    font-size: 16px;
+  }
 
-    .voice-title {
-      line-height: 1.2;
-      font-size: 20px;
-      margin-left: 10px;
-    }
+  .voice-title {
+    line-height: 1.2;
+    font-size: 22px;
+    margin-left: 10px;
+  }
 
-    .voice-text-wrap p {
-      line-height: 1.6;
-      font-size: 15px;
-      margin-top: 5%;
-    }
+  .voice-text-wrap p {
+    line-height: 1.6;
+    font-size: 17px;
+    margin-top: 5%;
+  }
 
-    .voice-img {
-      display: block;
-      margin: 0 auto;
-      margin-top: 8%;
-      width: 170px;
-      height: 170px;
-    }
+  .voice-img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 8%;
+    width: 170px;
+    height: 170px;
+  }
 
-    .voice-wrap {
-      padding: 6%;
-      margin-bottom: 5%;
-      width: 85%;
-    }
+  .voice-wrap {
+    padding: 6%;
+    margin-bottom: 5%;
+    width: 85%;
+  }
 
-    .voice-img-text {
-      padding-left: 0%;
-    }
-    /*-------------------------------------------
+  .voice-img-text {
+    padding-left: 0%;
+  }
+  /*-------------------------------------------
 450px_お届け手順
 -------------------------------------------*/
-    .step h2 {
-      font-size: 30px;
-      padding: 4% 10%;
-    }
+  .step h2 {
+    font-size: 30px;
+    padding: 4% 10%;
+  }
 
-    .step h3 {
-      font-size: 27px;
-    }
+  .step h3 {
+    font-size: 27px;
+  }
 
-    .step-waku {
-      padding: 60px 0px 10px 0px;
-      margin-bottom: 3%;
-    }
+  .step-waku {
+    padding: 60px 0px 10px 0px;
+    margin-bottom: 3%;
+  }
 
-    .step-waku p {
-      font-size: 16px;
-      padding: 0 20px;
-    }
+  .step-waku p {
+    font-size: 18px;
+    padding: 0 20px;
+  }
 
-    /*-------------------------------------------
+  /*-------------------------------------------
 450px_よくある質問
 -------------------------------------------*/
-    .question h2 {
-      font-size: 30px;
-      padding: 4%;
-    }
+  .question h2 {
+    font-size: 30px;
+    padding: 4%;
+  }
 
-    .title p {
-      width: 65%;
-      font-size: 15px;
-      line-height: 1.3;
-    }
+  .title p {
+    width: 65%;
+    font-size: 17px;
+    line-height: 1.3;
+  }
 
-    .box p {
-      font-size: 15px;
-      line-height: 1.3;
-    }
+  .box p {
+    font-size: 15px;
+    line-height: 1.3;
+  }
+
+  .accordion-area {
+    width: 85%;
   }
 }
