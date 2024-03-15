@@ -42,7 +42,8 @@ h1 {
   color: #00805d;
   line-height: 1.7;
   letter-spacing: 0.05em;
-  font-size: 19.5px;
+  font-size: 19px;
+  font-feature-settings: "palt";
 }
 
 .header-text-warp {
@@ -52,9 +53,10 @@ h1 {
 
 .header-text {
   z-index: 100;
-  width: 470px;
+  width: 450px;
   margin-top: 10%;
-  margin-left: 8%;
+  margin-left: 6%;
+  margin-right: 2%;
 }
 
 .header-link {
@@ -278,11 +280,17 @@ h3 {
   font-size: 19px;
 }
 
-.point-waku img {
+.point-img-illust {
   display: block;
   margin: 0 auto;
   margin-top: 1%;
   width: 150px;
+}
+
+.point-img-illust-supplement {
+  display: block;
+  margin: 0 auto;
+  width: 170px;
 }
 
 /*-------------------------------------------
