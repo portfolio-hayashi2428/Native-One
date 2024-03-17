@@ -5,7 +5,7 @@ setTimeout(function () {
   ) {
     document.getElementsByTagName("html")[0].classList.add("loading-delay");
   }
-}, 3000);
+}, 5000);
 
 //アコーディオンをクリックした時の動作
 $(".title").on("click", function () {
