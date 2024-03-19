@@ -399,11 +399,11 @@ h4 {
   content: "";
   display: block;
   position: absolute;
-  left: 50%; /* 左右位置の調整 */
-  transform: translate(-50%); /* 左右位置の調整 */
-  bottom: -3.5px; /* 上下位置の調整 */
-  width: 215px; /* 下線の横幅を指定 */
-  height: 8px; /* 下線の太さを指定 */
+  left: 50%;
+  transform: translate(-50%);
+  bottom: -3.5px;
+  width: 215px;
+  height: 8px;
   background-color: #f19c13;
   opacity: 0.7;
   z-index: -1;
@@ -688,7 +688,9 @@ h4 {
   margin-right: 15px;
 }
 
-/*アコーディオン全体*/
+/*-------------------------------------------
+アコーディオン部分
+-------------------------------------------*/
 .accordion-area {
   list-style: none;
   width: 80%;
@@ -703,7 +705,6 @@ h4 {
   margin: 15px 0;
 }
 
-/*アコーディオンタイトル*/
 .title {
   display: flex;
   align-items: center;
@@ -723,7 +724,6 @@ h4 {
   font-size: 18px;
 }
 
-/*アイコンの＋と×*/
 .title::before,
 .title::after {
   position: absolute;
@@ -743,7 +743,6 @@ h4 {
   transform: rotate(90deg);
 }
 
-/*アコーディオンで現れるエリア*/
 .box {
   display: none;
   margin: 0 3% 3% 3%;
@@ -752,9 +751,9 @@ h4 {
   color: #676767;
 }
 
-/*==================================================
-ふわっと動作
-===================================*/
+/*-------------------------------------------
+ポイント_実感の声_手順_ふわっと順番に表示 
+-------------------------------------------*/
 
 .active {
   opacity: 1;
